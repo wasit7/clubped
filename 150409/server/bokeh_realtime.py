@@ -9,7 +9,7 @@ N = 80
 x = np.linspace(0, 4*np.pi, N)
 y = np.sin(x)
 
-output_server("line_animate")
+output_server("line_animate",url='http://172.16.155.70:5006/')
 
 p = figure()
 
